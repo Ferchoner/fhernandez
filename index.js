@@ -22,16 +22,29 @@ function validarUsuario(){
 					}
 					else {
 						//error en caso de que no se consigan los datos del usuario de la base de datos
-						$('#error').html('Los datos que ingresaste son incorrectos');	
-						$('#error').css('color', 'red');		
+						$('#error').html('Algunos campos que ingresaste son incorrectos');
+						$('#error').fadeIn('slow');
+						return false;
 					}
 				}
 			});
 	}
 	else{
 		// Muestra el error si no estan completos los campos
-		$('#error').html('Dejaste campos vacios, tienes que llenar todos los campos');	
-		$('#error').css('color', 'red');
+		$('#error').html('Dejaste campos vacios, tienes que llenar todos los campos');
+		$('#error').fadeIn('slow');
+		return false;
 	}
 	return false;
 };
+
+$( "Document" ).ready( function(){
+
+	$("#usuario").change( function(){
+		$('#error').fadeOut('slow');
+	});
+
+	$("#password").change( function(){
+		$('#error').fadeOut('slow');
+	});
+});

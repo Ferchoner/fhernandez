@@ -4,11 +4,17 @@
 <head>
 	<script src="jquery.min.js"></script>
 	<script src="index.js"></script>
+	<style type="text/css">
+	#error {
+		color: red;
+		display: none;
+		} 
+	</style>
 	<title>Usuarios</title>
 </head>
 <body>
 	<h1>Bienvenido</h1>
-	<label id="error" style:"color:red;"></label> 
+	<label id="error"></label> 
 	<form action="javascript:validarUsuario()">
 		<label>Usuario:</label> 
 		<input type="text" id="usuario" name="usuario"></input><br>

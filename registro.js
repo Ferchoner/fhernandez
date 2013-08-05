@@ -7,7 +7,7 @@ $(document).ready(function()
 	$('form').submit( function() 
 	{
 		if 
-		( 
+		(	 
 			$('#usuario').val() &&
 			$('#apellidopat').val() &&
 			$('#apellidomat').val() &&
@@ -29,8 +29,10 @@ $(document).ready(function()
 		
 		if (!isValid) 
 		{
+
 			$('#error').html('Algunos campos que ingresaste estan vacios');	
 			$('#error').css('color', 'red');
+			$('#error').fadeIn();
 			return false;
 		}		
 	});
