@@ -15,8 +15,8 @@ VALUES
   '{$_POST['password']}', 
   '{$_POST['physical_address']}', 
   '{$_FILES["file"]["name"]}', 
-  '{$_POST['estado']}', 
-  '{$_POST['ciudad']}'
+  '{$_POST['estados']}', 
+  '{$_POST['ciudades']}'
 );
 EOT;
 

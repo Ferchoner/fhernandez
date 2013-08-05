@@ -13,7 +13,7 @@ if( !empty($_POST['edo_id']) )
     echo '<option></option>';
     while($row = mysqli_fetch_array($res))
     {
-      echo "<option value='".$row['id_cuidad']."'>". $row['nombre_ciudad']."</option>";
+      echo '<option value="' . $row['id_ciudad'] . '">' . $row['nombre_ciudad'] . '</option>';
     }
   }
 }

@@ -28,8 +28,8 @@
 		<label>Apellido Materno:</label> 
 		<input type="text" id="apellidomat" name="apellido_mat"></input><br>
 		<label>Sexo:</label><br>
-		<input type="radio" id="male" name="sex" value="M">Masculino
-		<input type="radio" id="female"name="sex" value="F">Femenino<br>
+		<input type="radio" id="male" name="sexo" value="M">Masculino
+		<input type="radio" id="female"name="sexo" value="F">Femenino<br>
 		<label>Fecha de Nacimiento</label><br>
 		<label>Dia:</label> 
 		<select id="dia" name="dia">
@@ -67,7 +67,7 @@
 		<label>Fotografia:</label>
 		<input type="file" id="foto" name="file"></input><br>
 		<label>Estado:</label>
-		<select id="estados" name="estad">
+		<select id="estados" name="estados">
 			<option></option>
 			<?php
 			// listado de estados de la Base de datos
@@ -78,7 +78,7 @@
 			?>
 		</select><br>
 		<label>Ciudad:</label>
-		<select id="ciudades" name="ciudad">
+		<select id="ciudades" name="ciudades">
 			<!-- Listado de ciudades vacio hasta que se seleccione un estado-->
 			<option></option>
 			<option>Ciudad</option>

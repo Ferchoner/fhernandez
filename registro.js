@@ -11,7 +11,7 @@ $(document).ready(function()
 			$('#usuario').val() &&
 			$('#apellidopat').val() &&
 			$('#apellidomat').val() &&
-			$("input[name ='sex']:checked").val() &&
+			$("input[name ='sexo']:checked").val() &&
 			$('#dia option:selected').text() != '' &&
 			$('#mes option:selected').text() != '' &&
 			$('#anio option:selected').text() != '' &&
