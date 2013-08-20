@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="jquery.min.js"></script>
-	<script type="text/javascript" src="registro.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/registro.js"></script>
 	<title>Registro de Usuario</title>	
 </head>
 

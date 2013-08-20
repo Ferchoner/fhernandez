@@ -2,8 +2,8 @@
 <?php session_start(); ?>
 <html>
 <head>
-	<script src="jquery.min.js"></script>
-	<script src="index.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/index.js"></script>
 	<style type="text/css">
 	#error {
 		color: red;
