@@ -4,12 +4,7 @@
 <head>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/index.js"></script>
-	<style type="text/css">
-	#error {
-		color: red;
-		display: none;
-		} 
-	</style>
+	<link rel="stylesheet" href="css/style.css"/>
 	<title>Usuarios</title>
 </head>
 <body>

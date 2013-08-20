@@ -11,6 +11,7 @@
 
 @font-size: 16; 		// Your base font-size in pixels
 @em: @font-size*1em;	// Shorthand for outputting ems, e.g. "12/@em"
+@ErrorColor: #F20505;   // Color for Error Messages
 
 @column: 48;	// The column-width of your grid in pixels
 @gutter: 24;	// The gutter-width of your grid in pixels
@@ -190,4 +191,9 @@ body {
 	body {
 		font-size: (@font-size + 2)/16*1em;
 	}
+}
+
+#error {
+	color: @ErrorColor:;
+	display: none;
 }

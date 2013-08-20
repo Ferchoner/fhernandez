@@ -3,6 +3,7 @@
 <head>
 	<script src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/registro.js"></script>
+	<link rel="stylesheet" href="css/style.css"/>
 	<title>Registro de Usuario</title>	
 </head>
 

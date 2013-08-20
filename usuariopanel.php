@@ -9,6 +9,7 @@
 <html>
 <head>
 	<script src="jquery.min.js"></script>
+	<link rel="stylesheet" href="css/style.css"/>
 	<title>Panel de Informacion de Usuario</title>
 </head>
 <body>
