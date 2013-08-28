@@ -44,7 +44,7 @@ EOT;
   }
   else
   {
-    header("Location: http://localhost/fhernandez/registro.php");
+    header("Location: http://tiendalocal/registro.php");
     die();
   }
 ?>
